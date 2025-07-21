@@ -1,4 +1,4 @@
-# Hi 👋 Iam [ Mr.Developer]
+# Hi 👋 Iam Mr.Developer
 Web developer interested in software and tools development.
 
 ## 🛠 
