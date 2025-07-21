@@ -6,9 +6,5 @@ Web developer interested in software and tools development.
 - Software tools        : Docker, Git, VS Code
 - Frameworks            : React, Figma
 
-## 🚀 
-- [https://me-one-blue.vercel.app](#): Personal website
-- [https://3b-com.vercel.app](#)     : company website
-
 ## 📫 
 - Gmail: xdevoleper@gmail.com
