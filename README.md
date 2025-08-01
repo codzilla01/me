@@ -3,8 +3,8 @@ Web developer interested in software and tools development. A multi-skilled tech
 
 ## 🛠 
 - Programming languages : HTML, CSS3, JavaScript, PHP, Python 
-- Software tools        : Docker, Git, VS Code, API
-- Frameworks            : React, Figma
+- Software tools        : Vercel, Git, VS Code, API, Bootstrap
+- Frameworks            : React, Figma, MITRE ATT&CK®
 
 ## 📫 
 - Gmail: mohamedelnil11@gmail.com
