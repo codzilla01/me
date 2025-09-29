@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Service Details - Mr.Developer</title>
+  <title>Mr.Developer</title>
   <meta name="description" content="">
   <meta name="keywords" content="">
 
@@ -29,7 +29,7 @@
 
 </head>
 
-<body class="service-details-page
+<body class="services-page">
 
   <script>
     document.addEventListener('contextmenu', event => event.preventDefault());
@@ -39,8 +39,8 @@
     <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
 
       <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo
-        <img src="assets/img/Anonymous.png" alt="">-->
+        <!-- Uncomment the line below if you also wish to use an image logo 
+        <img src="assets/img/Anonymous.png" alt=""> -->
         <h1 class="sitename">Mr.Developer</h1>
       </a>
 
@@ -49,7 +49,7 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="resume.html">Resume</a></li>
-          <li><a href="services.html">Services</a></li>
+          <li><a href="services.html" class="active">Services</a></li>
           <!--<li><a href="portfolio.html">Portfolio</a></li>-->
           <li><a href="contact.html">Contact</a></li>
         </ul>
@@ -67,8 +67,8 @@
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
-              <h1>Service Details</h1>
-              <!--<p class="mb-0">Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>-->
+              <h1>Services</h1>
+              <p class="mb-0"> </p>
             </div>
           </div>
         </div>
@@ -77,56 +77,99 @@
         <div class="container">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li class="current">Service Details</li>
+            <li class="current">Services</li>
           </ol>
         </div>
       </nav>
     </div><!-- End Page Title -->
 
-    <!-- Service Details Section -->
-    <section id="service-details" class="service-details section">
+    <!-- Services Section -->
+    <section id="services" class="services section">
 
       <div class="container">
 
         <div class="row gy-4">
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="services-list">
-              <a href="#" class="active">Programming Services</a>
-              <a href="https://www-3b-com.vercel.app">3B Smart Solutions مثال</a>
-              <a href="#">Encryption</a>
-              <a href="#">Scripting</a>
-              <a href="#">Coding</a>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item  position-relative">
+              <div class="icon">
+                <i class="bi bi-shield-fill-check"></i>
+              </div>
+              <a href="Cyber Security.html" class="stretched-link">
+                <h3>Information Security</h3>
+              </a>
+                
             </div>
+          </div><!-- End Service Item -->
 
-            <h4> </h4>
-            <p> </p>
-          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-code-slash"></i>
+              </div>
+              <a href="programming.html" class="stretched-link">
+                <h3>Programming</h3>
+              </a>
+              <p> </p>
+            </div>
+          </div><!-- End Service Item -->
 
-          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-            <img src="assets/img/services/code2.jpeg" alt="" class="img-fluid services-img">
-            <h3>Programmer & Web Developer - مبرمج  ومطور ويب </h3>
-            <p> <span class="typed" data-typed-items="I am a programmer, I am a coder, I will turn any of  your ideas into reality through programming"></span><span class="typed-cursor typed-cursor--blink"></span></p>
-            <!--<p>
-              A cybersecurity expert and ethikal haker, I provide comperhensive security solutions to provide your digital Businesses from cyber threats.
-            </p>-->
-            <ul>
-              <li><i class="bi bi-check-circle"></i> <span>Front-End</span></li>
-              <li><i class="bi bi-check-circle"></i> <span>Back-End</span></li>
-            </ul>
-            <p>
-              
-            </p>
-            <p>
-              
-            </p>
-          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-easel"></i>
+              </div>
+              <a href="Computer Maintenance.html" class="stretched-link">
+                <h3>Computer Maintenance</h3>
+              </a>
+              <p> </p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <!--<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-info-circle"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Technical consulting</h3>
+              </a>
+              <p> </p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <!--div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-calendar4-week"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Marketing Services</h3>
+              </a>
+              <p> </p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
+
+          <!--<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-chat-square-text"></i>
+              </div>
+              <a href="#" class="stretched-link">
+                <h3>Special Investigation</h3>
+              </a>
+              <p> </p>
+              <a href="#" class="stretched-link"></a>
+            </div>
+          </div><!-- End Service Item -->
 
         </div>
 
       </div>
 
-    </section><!-- /Service Details Section -->
+    </section><!-- /Services Section -->
 
   </main>
 
@@ -141,14 +184,14 @@
         <a href="https://www.facebook.com/mohamedelnil11"><i class="bi bi-facebook"></i></a>
         <a href="https://www.instagram.com/mohamedelnil.1"><i class="bi bi-instagram"></i></a>
         <a href="https://www.linkedin.com/in/mohamed-elnil-2aa74a171"><i class="bi bi-linkedin"></i></a>
-        <a href="https://wa.me//+249923544456"><i class="bi bi-whatsapp"></i></a>
+        <a href="https://wa.me//249923544456"><i class="bi bi-whatsapp"></i></a>
       </div>
       <div class="container">
         <div class="copyright">
           <span>Copyright</span> <strong class="px-1 sitename">Mr.Developer</strong> <span>All Rights Reserved</span>
         </div>
         <div class="credits">
-          Designed by <a href="https://wa.me//+249923544456">Mr.Developer</a>
+          Designed by <a href="https://wa.me//249923544456">Mr.Developer</a>
         </div>
       </div>
     </div>
